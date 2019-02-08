@@ -48,7 +48,7 @@ class MapView extends Component {
     if (!this.props.fetching && isEmpty(this.props.cars)) {
       return (
         <h2>It seems you have no cars in your fleet.</h2>
-      )
+      );
     }
     return (
       <Grid>

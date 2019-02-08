@@ -16,7 +16,7 @@ import '../css/NavBar.css';
 
 class NavBar extends Component {
 
-  componentWillMount = () => {
+  componentDidMount = () => {
     this.props.loadUserFromToken();
   }
 
